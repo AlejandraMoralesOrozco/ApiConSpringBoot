@@ -26,7 +26,7 @@ public class Direccion {
 
     }
 
-    public Direccion actulizarDatos(DatosDireccion direccion) {
+    public Direccion actulizarDireccion(DatosDireccion direccion) {
         this.calle = direccion.calle();
         this.numero = direccion.numero();
         this.distrito = direccion.distrito();
