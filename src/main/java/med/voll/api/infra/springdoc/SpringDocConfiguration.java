@@ -34,8 +34,8 @@ public class SpringDocConfiguration {
     }
 
     @Bean
-    public void message(){
-        System.out.println("Bearer is working");
+    public String message(){
+        return "Bearer is working";
     }
 
 }
